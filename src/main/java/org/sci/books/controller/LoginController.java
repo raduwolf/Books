@@ -28,7 +28,7 @@ public class LoginController {
         System.out.println(getClass() + "- Welcome page is invoked.");
 
         ModelAndView mav = new ModelAndView();
-        mav.addObject("mymsg", "Hello world from javacodegeek!");
+        mav.addObject("mymsg", "Hello world from me!");
         mav.setViewName("homePage");
 
         service.createManager();
